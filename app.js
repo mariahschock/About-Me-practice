@@ -16,7 +16,7 @@ btn2.addEventListener('click', () => {
 });
 btn3.addEventListener('click', () => {
     hiddenText3.classList.toggle('hidden3');
-} );
+});
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
