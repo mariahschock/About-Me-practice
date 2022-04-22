@@ -63,6 +63,17 @@ header {
     text-align: center;
 }
 
+h1 {
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.predators {
+    color:darkgray;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
