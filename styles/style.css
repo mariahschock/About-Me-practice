@@ -120,6 +120,7 @@ img {
 
 .hidden2 {
     display: none;
+    flex: 33.33%;
 }
 
 .hidden3 {
