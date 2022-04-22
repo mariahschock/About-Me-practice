@@ -57,21 +57,22 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: black;
     height: var(--header-height);
     box-shadow: var(--shadow);
     text-align: center;
+    color: gray;
 }
 
 h1 {
     font-weight: bold;
     font-family: fantasy;
     text-align: center;
-    font-size: larger;
+    font-size:x-large;
 }
 
 .predators {
-    color:darkgray;
+    color:gray;
     font-weight: bold;
     font-family: fantasy;
 }
@@ -92,20 +93,25 @@ header img {
 p {
     margin: var(--gutter);
     text-align:center;
-    color:ivory
+    color: darkgray;
+    font-family: fantasy;
 }
 
 img {
-    width: 100px;
+    width: 200px;
 }
 
 .row {
-    display: flex;
+    display:flex;
 }
 
 .column {
     flex: 33.33%;
     padding: 5px;
+}
+
+.Leo-button {
+    Margin: 0;
 }
 
 footer {
