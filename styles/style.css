@@ -114,6 +114,18 @@ img {
     text-align: center;
 }
 
+.hidden1 {
+    display: none;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.hidden3 {
+    display: none;
+}
+
 footer {
     position: fixed;
     width: 100%;
