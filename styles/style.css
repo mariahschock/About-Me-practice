@@ -29,8 +29,13 @@ body {
     --footer-height: 30px;
 
     font-family: 'Hubballi', cursive;;
-    background-color: var(--color2);
+    background-color:black;
 }
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}  
 
 main {
     display: flex;
@@ -41,8 +46,8 @@ main {
 }
 
 section {
-    background-color: var(--color5);
-    max-width: 80%;
+    background-color:black;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,15 +56,30 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px darkgrey;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: black;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    text-align: center;
+    color: gray;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    font-size:x-large;
+}
+
+.predators {
+    color:gray;
+    font-weight: bold;
+    font-family: fantasy;
 }
 
 h2 {
@@ -77,6 +97,38 @@ header img {
 
 p {
     margin: var(--gutter);
+    text-align:center;
+    color: darkgray;
+    font-family: fantasy;
+}
+
+img {
+    width: 200px;
+}
+
+.row {
+    display:flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.imageButton {
+    text-align: center;
+}
+
+.hidden1 {
+    display: none;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.hidden3 {
+    display: none;
 }
 
 footer {
@@ -85,6 +137,7 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: black;
     box-shadow: var(--shadow);
+    color:darkgrey;
 }
