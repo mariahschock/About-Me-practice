@@ -113,13 +113,7 @@ img {
 .column {
     flex: 33.33%;
     padding: 5px;
-    width: 100%;
 }
-
-@media (min-width: 600px) {
-    .column {
-    width: 50%;
-    }
 
 .imageButton {
     text-align: center;
@@ -146,5 +140,4 @@ footer {
     background-color: black;
     box-shadow: var(--shadow);
     color:darkgrey;
-}
 }
